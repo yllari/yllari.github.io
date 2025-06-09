@@ -1,0 +1,269 @@
+:root{
+  --nav-background:#FFEBD2;
+  --nav-text: black;
+  --main-background: #273248;
+  --main-text: #FFEBD2;
+  --projects-background: #FC6743;
+  --projects-background2: #AF4F41;
+  --projects-text: var(--main-background);
+  --contact-background: #FFA364;
+  --contact-background2: var(--nav-background);
+  --contact-text: #AF4F41;
+  --basic-time: 1.5s;
+  --first-limit: 10%;
+  --second-limit: 90%;
+}
+*{
+  font-family: "Courier New", monospace;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+
+.head-header{
+  width: 100%;
+  background-color:red;
+  position:fixed;
+}
+.nav-bar{
+  display: flex;
+  align-items: flex-end;
+  gap: 20px;
+  height: 10vh;
+  justify-content: center;
+  background-color:var(--nav-background);
+}
+.nav-link{
+  font-size: 1.2em;
+  color: var(--nav-text);
+}
+.nav-link-who:hover:after{
+  content:"";
+  animation: nav-bar-who calc(var(--basic-time)*6/10) linear infinite alternate;
+}
+.nav-link-what:hover:after{
+  content:"";
+  animation: nav-bar-what var(--basic-time) linear;
+  animation-fill-mode: forwards;
+}
+.nav-link-where:hover:after{
+  content:"";
+  animation: nav-bar-where var(--basic-time) linear infinite alternate;
+}
+
+main{
+  margin-top: 10vh;
+  background-color: var(--main-background);
+  color: var(--main-text);
+}
+.welcome-section{
+  height: 90vh;
+  padding: 1vh 1vw;
+}
+.all-bracket-container{
+  display:flex;
+  justify-content: center;
+  gap: min(1em,2.5vw);
+  margin-top: 30vh;
+}
+.bracket-container{
+  display: inline-block;
+  font-size: min(2em,5vw);
+}
+.bracket{
+ height: 1vh;
+ border-bottom: 0.1em solid var(--main-text);  
+ border-right: 0.1em solid var(--main-text);
+ border-left: 0.1em solid var(--main-text);
+}
+.underbracket{
+  font-size: 0.5em;
+  display:flex;
+  justify-content: center;
+}
+.right-header{
+  display: flex;
+  justify-content: right;
+}
+
+.projects{
+  background: linear-gradient(var(--projects-background2) 0%, var(--projects-background2) var(--first-limit),var(--projects-background2) var(--first-limit), var(--projects-background2) var(--second-limit),var(--projects-background) var(--second-limit),var(--projects-background) 100%);
+  height: 100vh;
+  padding: 1vh 1vw;
+}
+.projects p{
+  color: var(--projects-text);
+}
+.projects-container{
+  margin: 2vh 2vw;
+  display: flex;
+  gap: 3vw;
+  min-height: 70vh;
+}
+
+.project-tile{
+  height: 33%;
+  width: 33%;
+  display:inline;
+  border: 1vw solid var(--projects-text);
+  background-color: var(--projects-text);
+}
+.project-tile:hover{
+  cursor: pointer;
+}
+.project-tile img{
+  width: 100%;
+  height: 81%;
+}
+.project-tile p{
+  color: var(--main-text);
+}
+
+.contact{
+  background: linear-gradient(var(--projects-background) 0%, var(--projects-background) var(--first-limit),var(--contact-background) var(--first-limit),
+  var(--contact-background) var(--second-limit), var(--contact-background2) var(--second-limit),var(--contact-background2) 100%);
+  height: 100vh;
+  padding: 1vh 1vw;
+}
+.contact p, .profile-link{
+  margin: 6vh 0;
+  color: var(--contact-text);
+}
+.contact-container{
+  display:flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  gap: 3vw;
+}
+
+.profile-link{
+  font-size: 1.7em;
+  transition: transform 0.2s linear;
+  text-decoration: none;
+}
+.profile-link:hover{
+  transform: translateY(1vh);
+  text-shadow: 0.5px 0.5px 1px var(--main-text);
+  cursor: pointer;
+}
+.sun-sphere{
+  background-color: var(--contact-background2);
+  width: min(20vw,20vh);
+  height: min(20vw,20vh);
+  position: absolute;
+  border-radius: 50%;
+  transform-origin: center;
+  left: calc(44vw-min(20vw,20vh)/2);
+  bottom: -205vh;
+}
+footnote{
+  padding: 5px 5px;
+}
+
+@media (max-width: 600px){
+  .projects-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 200px);
+    padding-left: 10%;
+    padding-right: 10%;
+    max-height: 70%;
+  }
+  .project-tile{
+    height: 100%;
+    width: 100%;
+  }
+}
+
+@keyframes nav-bar-what{
+  0%{
+    content: " h_";
+  }
+  10%{
+    content: " ha_";
+  }
+  20%{
+    content: " hav_";
+  }
+  30%{
+    content: " have_";
+  }
+  40%{
+    content: " have I_";
+  }
+  50%{
+    content: " have I d_";
+  }
+  60%{
+    content: " have I do_";
+  }
+  70%{
+    content: " have I don_";
+  }
+  80%{
+    content: " have I done\00a0 ";
+  }
+  90%{
+    content: " have I done_";
+  }
+  100%{
+    content: " have I done\00a0 ";
+  }
+}
+@keyframes nav-bar-who{
+  0%{
+    content:" a_";
+  }
+  20%{
+    content:" am_";
+  }
+  40%{
+    content:" am I_";
+  }
+  60%{
+    content:" am I\00a0";
+  }
+  80%{
+    content:" am I_";
+  }
+  100%{
+    content:" am I\00a0";
+  }
+}
+
+@keyframes nav-bar-where{
+  0%{
+    content:" t_";
+  }
+  10%{
+    content:" to_";
+  }
+  20%{
+    content:" to f_";
+  }
+  30%{
+    content:" to fi_";
+  }
+  40%{
+    content:" to fin_";
+  }
+  50%{
+    content:" to find_";
+  }
+  60%{
+    content:" to find m_";
+  }
+  70%{
+    content:" to find me_";
+  }
+  80%{
+    content:" to find me\00a0";
+  }
+  90%{
+    content:" to find me_";
+  }
+  100%{
+    content:" to find me\00a0";
+  }
+}
