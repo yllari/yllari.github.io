@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[pyPipe3D]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib/media/favicon.png</url><title>pyPipe3D</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Thu, 03 Jul 2025 13:49:41 GMT</lastBuildDate><atom:link href="lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Thu, 03 Jul 2025 13:49:39 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[Configuring ini file]]></title><description><![CDATA[ 
+ <br>The most important parameters are:<br>
+<br> Estimates for the center of the galaxxy
+<br>redshift, to guide the search and speed up the process
+<br>badpix_extension=3 for CAVITY
+<br>badpix_value=1 (bad pixel value)
+<br>instrumental_dispersion = 2.31 (2.51 A for gsd, 6 for CAVITY PPak)<br>
+This info is in <a data-href="File headers" href="cavity-ifu/file-headers.html" class="internal-link" target="_self" rel="noopener nofollow">File headers</a> and <a data-href="Instrument parameters" href="cavity-ifu/instrument-parameters.html" class="internal-link" target="_self" rel="noopener nofollow">Instrument parameters</a>
+<br>Segmentation options: whatever you like]]></description><link>cavity-ifu/configuring-ini-file.html</link><guid isPermaLink="false">CAVITY IFU/Configuring ini file.md</guid><pubDate>Wed, 04 Jun 2025 09:34:42 GMT</pubDate></item><item><title><![CDATA[File headers]]></title><description><![CDATA[ 
+ <br><img alt="header.png" src="lib/media/header.png"><br>Error weighting factor is related to the reliability of the result given the fiber coverage. Should only affect averages (I believe)]]></description><link>cavity-ifu/file-headers.html</link><guid isPermaLink="false">CAVITY IFU/File headers.md</guid><pubDate>Wed, 04 Jun 2025 09:12:17 GMT</pubDate><enclosure url="lib/media/header.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib/media/header.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Instrument parameters]]></title><description><![CDATA[ 
+ <br>Wavelength coverage: <br>
+with linear spacing and   for the whole range<br>
+Instrumental resolution FWHM:  for whole range of wavelength<br>
+<img alt="wavelength_info.png" src="lib/media/wavelength_info.png"><br>This means:<br>
+<br>No resampling
+<br>No degrading spectra. Fixed difference (if models have 2.51 this means ~ 2.31 A )
+<br>Technically should consider changes with redshift
+]]></description><link>cavity-ifu/instrument-parameters.html</link><guid isPermaLink="false">CAVITY IFU/Instrument parameters.md</guid><pubDate>Fri, 06 Jun 2025 07:57:11 GMT</pubDate><enclosure url="lib/media/wavelength_info.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib/media/wavelength_info.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[README]]></title><description><![CDATA[ 
+ <br>This vault contains all information regarding the data processing and information for CAVITY DR1, which I need for pyPipe3D's pipeline<br>
+<br><a data-href="File headers" href="cavity-ifu/file-headers.html" class="internal-link" target="_self" rel="noopener nofollow">File headers</a>
+<br><a data-href="Instrument parameters" href="cavity-ifu/instrument-parameters.html" class="internal-link" target="_self" rel="noopener nofollow">Instrument parameters</a>
+<br><a data-href="Configuring ini file" href="cavity-ifu/configuring-ini-file.html" class="internal-link" target="_self" rel="noopener nofollow">Configuring ini file</a>
+<br>Some annotations for myself:<br>
+<br><a data-href="TODO" href="cavity-ifu/todo.html" class="internal-link" target="_self" rel="noopener nofollow">TODO</a>
+]]></description><link>cavity-ifu/readme.html</link><guid isPermaLink="false">CAVITY IFU/README.md</guid><pubDate>Fri, 06 Jun 2025 07:39:57 GMT</pubDate></item><item><title><![CDATA[TODO]]></title><description><![CDATA[ 
+ <br>
+<br>Parametric emission line fit is not working. This is most probably because of the same issue of having a wavelength range not corrected for redshift in the range that I had for SDSS. 
+<br>Change the dispersion. Not only general but in RSS analysis. Should we take into account the redshift correction?
+<br>Implement foreground extinction correction NOO, it is already done in the cubes
+<br>
+]]></description><link>cavity-ifu/todo.html</link><guid isPermaLink="false">CAVITY IFU/TODO.md</guid><pubDate>Thu, 26 Jun 2025 08:32:06 GMT</pubDate></item><item><title><![CDATA[Changes]]></title><description><![CDATA[ 
+ <br>Moved spectra to rest frame to ensure that the templates are well cropped. Adjust the number of components depending on the covered range of wv]]></description><link>ppxf/changes.html</link><guid isPermaLink="false">pPXF/Changes.md</guid><pubDate>Tue, 10 Jun 2025 11:02:36 GMT</pubDate></item><item><title><![CDATA[Mass-weighted]]></title><description><![CDATA[ 
+ <br>pPXF provides directly mass SFHs in  sps_util.  The process is the following:<br>Move flux units  from the flux band (without 1+z correction, should add this), , where  is each template. To 10 pc and use solar luminosity units<br>
+<br>Now ]]></description><link>ppxf/mass-weighted.html</link><guid isPermaLink="false">pPXF/Mass-weighted.md</guid><pubDate>Thu, 12 Jun 2025 09:35:00 GMT</pubDate></item><item><title><![CDATA[Doubts]]></title><description><![CDATA[ 
+ <br>
+<br>0.43 in the error calculation comes from log10(e), but why applied to the extinction error?
+<br>Why that formula for the extinction error? 
+<br>What is the correct way to estimate error calculation in the MC SFH iteration?
+<br>How should maStar models be used? sigma_inst=0 and no other fix?
+<br>Why values of EL fitting are negative sometimes? Should they? Because We are using LM method, least square fitting should be bounded either way, but who knows
+<br>How should SFH be correlated? should there be any correlation between T30 and T70??
+<br>==How come the error in the EL does not depend on the number of pixels in the fitting? Particularly in the continuum<br>
+This is from the formula  where  and  is the standard deviation of the residuals for gas-only spectrum  
+<br>The program does not ignore very large error values, it fits its either way
+<br>There is a latter search of parameters for SSPs for some reason, what are the implications of this
+<br>Investigate: Why 3500 factor in mass. This is not used in pyPipe3D
+<br>Why only half the sigma noise is used in the gaussian fit? 0.5 for the randomize_flux option
+]]></description><link>pyfit3d/doubts.html</link><guid isPermaLink="false">pyFIT3D/Doubts.md</guid><pubDate>Mon, 30 Jun 2025 10:00:44 GMT</pubDate></item><item><title><![CDATA[Notes]]></title><description><![CDATA[ 
+ <br>Ca K line is not well fitted, looks like it is because there is a sky line just there.<br>
+There are some galaxies such as 12935 that have a weird emission line between Hgamma and H9. It is the Ne III 3868 line<br>
+<br>Whenever the EL fit fails is because the EL is outside of the boundaries defined in autossp, this is commonly because the redshift is ill-determined
+]]></description><link>pyfit3d/notes.html</link><guid isPermaLink="false">pyFIT3D/Notes.md</guid><pubDate>Fri, 20 Jun 2025 20:20:48 GMT</pubDate></item><item><title><![CDATA[To implement]]></title><description><![CDATA[ 
+ <br>Uncertainties calculation on mass<br>
+Solve both the emission infinite and outside of range]]></description><link>pyfit3d/to-implement.html</link><guid isPermaLink="false">pyFIT3D/To implement.md</guid><pubDate>Thu, 12 Jun 2025 19:16:54 GMT</pubDate></item><item><title><![CDATA[Central Spectrum Analysis]]></title><description><![CDATA[ 
+ <br>The central spectrum analysis is performed<br>In the example CALIFA code this means:<br>If no center is defined, a weighted estimate is calculated as the flux^5 in the V slice within<br>
+the center third of the cube.<br>
+# If no center pixel is given
+if x0 is None or y0 is None:
+	nx0 = int(nx*.33)
+	nx1 = int(nx*2*.33) # 1/3 central part
+	ny0 = int(ny*.33)
+	ny1 = int(ny*2*.33)
+	iy, ix = np.indices(V__yx.shape)
+	iy = iy[ny0:ny1, nx0:nx1]
+	ix = ix[ny0:ny1, nx0:nx1]
+	sel = V_msk__yx[ny0:ny1, nx0:nx1] != 2
+	V_slice = copy(V__yx[ny0:ny1, nx0:nx1][sel])
+	__V = V_slice**5
+	_s = __V.sum()
+	x0 = ix[sel].dot(__V)/_s # Mean position for ^5 weighted average
+	y0 = iy[sel].dot(__V)/_s
+<br>Then radial_sum_cube_e is called, calculating the cube that will be used for the analysis, it returns the central spectrum in the output[0] and integrated spectrum in the output[5] position. This analysis is not tessellated yet.<br>A first round off nonlinear fit is performed, then an emission lines one in the central integrated spaxel.<br>Then, a full-galaxy integrated spectrum analysis is performed<br>These two would give the redshift if it was not fixed in the ini file.]]></description><link>pypipe3d-map/steps/central-spectrum-analysis.html</link><guid isPermaLink="false">PyPipe3D map/Steps/Central Spectrum Analysis.md</guid><pubDate>Fri, 06 Jun 2025 07:36:00 GMT</pubDate></item><item><title><![CDATA[Continuum Segmentation]]></title><description><![CDATA[ 
+ <br>Continuum segmentation consists in two steps:<br>
+<br>Join pixels with close values of integrated flux in the V-pseudoband 
+<br>Voronoi binning to achieve a given S/N (around 50 usually)
+<br>In the CALIFA pipeline this means:<br># Step to obtain the segmented spectra
+cont_seg_all_SN()
+
+
+# Extract statistics from segmented spectra
+rss_mean, _, _, _, _  = spec_extract_cube_mean()
+rss_error, _, _, _, _ = spec_extract_cube_error()
+get_SN_rss()
+SN_map_seg()
+rss_seg2cube()
+
+# Get V-band slice
+get_slice()
+
+# True analysis. This function just for loops for every spectum
+r = auto_ssp_elines_rnd_rss_main(wave, rss_mean, rss_error)
+# The result is stored in rss.few
+# Returns an emission-free spectrum per spaxel that is passed down again
+]]></description><link>pypipe3d-map/steps/continuum-segmentation.html</link><guid isPermaLink="false">PyPipe3D map/Steps/Continuum Segmentation.md</guid><pubDate>Fri, 06 Jun 2025 07:50:30 GMT</pubDate></item><item><title><![CDATA[Emission line fit for spaxel]]></title><description><![CDATA[ 
+ <br>A rescaled (flux) and deonificated stellar population model constructed for the tesella corresponding to the spaxel is used to obtain a pure gas spectre. A polynomial correction is applied to remove the possible color effects (non specified in the paper).<br>Both a parametric (gaussian) and non-parametric fit is done.<br>For the parametric fit, the following code is executed:<br>r = kin_cube_elines_main()
+<br>This performs parametric (gaussian + continuum) fit for every spaxel and file of models given.<br>For the momentum analysis (just measuring std and integrated flux)<br>r = flux_elines_cube_EW()
+]]></description><link>pypipe3d-map/steps/emission-line-fit-for-spaxel.html</link><guid isPermaLink="false">PyPipe3D map/Steps/Emission line fit for spaxel.md</guid><pubDate>Thu, 26 Jun 2025 09:18:27 GMT</pubDate></item><item><title><![CDATA[Final calculations]]></title><description><![CDATA[ 
+ <br>Generates mass, age, and metallicity maps:<br>sum_mass_age(...)
+<br>where the function calculates the mass  with:<br>
+<br>
+where  is the flux for a given stellar  stellar population in the pixel  and  the corresponding coefficient for the given SSP and fit. And corrects it with the redshift multiplying by a luminosity factor depending on the cosmological model and luminosity distance.<br>The error comes directly from the error in :<br>
+<br>
+The dust correction is directly:<br>
+<br>
+in the code they use  for some reason]]></description><link>pypipe3d-map/steps/final-calculations.html</link><guid isPermaLink="false">PyPipe3D map/Steps/Final calculations.md</guid><pubDate>Thu, 26 Jun 2025 09:15:36 GMT</pubDate></item><item><title><![CDATA[Doubts]]></title><description><![CDATA[ 
+ <br>
+<br>Why does the instrumental dispersion change between the different steps in the whole procedure? e.g, the first round and second round of RSS
+<br>Why do a masked and unmasked analysis of the central spectrum?
+<br>What to do with extremely large (bad fitting) values for EL fitting?
+<br>Any changes in the pipeline?
+<br>The redshift should be taken into account for the sigma dispersion. Is it done? Probably not.  See Cappellari 2017 MNRAS 466, 798–811
+<br>There are no uncertainties in the dust-corrected stellar mass?
+<br> Are flux in flux_elines rescaled to something? 
+]]></description><link>pypipe3d-map/doubts.html</link><guid isPermaLink="false">PyPipe3D map/Doubts.md</guid><pubDate>Thu, 03 Jul 2025 13:45:37 GMT</pubDate></item><item><title><![CDATA[PyPipe3D map]]></title><description><![CDATA[ 
+ <br>This vault  will contain all the information necessary to understand <a data-tooltip-position="top" aria-label="https://arxiv.org/pdf/2202.08027" rel="noopener nofollow" class="external-link" href="https://arxiv.org/pdf/2202.08027" target="_blank">PyPipe3D</a> in a simple straightforward manner<br>
+This includes <a data-href="The pipeline" href="pypipe3d-map/the-pipeline.html" class="internal-link" target="_self" rel="noopener nofollow">The pipeline</a>]]></description><link>pypipe3d-map/pypipe3d-map.html</link><guid isPermaLink="false">PyPipe3D map/PyPipe3D map.md</guid><pubDate>Fri, 06 Jun 2025 07:32:51 GMT</pubDate></item><item><title><![CDATA[The pipeline]]></title><description><![CDATA[ 
+ <br>The pipeline consists in the following steps:<br>
+<br>
+<a data-href="Central Spectrum Analysis" href="pypipe3d-map/steps/central-spectrum-analysis.html" class="internal-link" target="_self" rel="noopener nofollow">Central Spectrum Analysis</a>
+
+<br>
+<a data-href="Continuum Segmentation" href="pypipe3d-map/steps/continuum-segmentation.html" class="internal-link" target="_self" rel="noopener nofollow">Continuum Segmentation</a>
+
+<br>
+Execute Nonlinear, emission and SSP fit for each tessela
+
+<br>
+Stellar indices analysis
+
+<br>
+<a data-href="Emission line fit for spaxel" href="pypipe3d-map/steps/emission-line-fit-for-spaxel.html" class="internal-link" target="_self" rel="noopener nofollow">Emission line fit for spaxel</a> 
+
+<br>
+<a data-href="Final calculations" href="pypipe3d-map/steps/final-calculations.html" class="internal-link" target="_self" rel="noopener nofollow">Final calculations</a>
+
+]]></description><link>pypipe3d-map/the-pipeline.html</link><guid isPermaLink="false">PyPipe3D map/The pipeline.md</guid><pubDate>Thu, 26 Jun 2025 08:30:50 GMT</pubDate></item><item><title><![CDATA[Untitled]]></title><description><![CDATA[ 
+ ]]></description><link>untitled.html</link><guid isPermaLink="false">Untitled.md</guid><pubDate>Thu, 03 Jul 2025 13:34:56 GMT</pubDate></item></channel></rss>
