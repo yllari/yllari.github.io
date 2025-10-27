@@ -1,11 +1,13 @@
 {
   "vaultName": "pyPipe3D",
-  "lastExport": 1760006442391,
+  "lastExport": 1761561427779,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-light show-inline-title show-ribbon",
   "useCustomHeadContent": false,
   "useCustomFavicon": false,
   "files": [
+    "biblio-notes/AGNs in the CALIFA survey - X-ray detection of nuclear sources.md",
+    "biblio-notes/Crossing the Line - Active Galactic Nuclei in the Star-forming Region of the BPT Diagram.md",
     "biblio-notes/Galactic chemical evolution - stellar yields and the initial mass function.md",
     "biblio-notes/Influence of the Void Environment on Chemical Abundances in Dwarf Galaxies and Implications for Connecting Star Formation and Halo Mass.md",
     "biblio-notes/Large-scale Environmental Dependence of the Abundance Ratio of Nitrogen to Oxygen in Blue, Star-forming Galaxies Fainter than L.md",
@@ -219,307 +221,307 @@
   ],
   "fileInfo": {
     "lib/media/header.png": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 44741,
       "exportedPath": "lib/media/header.png",
       "dependencies": []
     },
     "lib/media/wavelength_info.png": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 58003,
       "exportedPath": "lib/media/wavelength_info.png",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/6155340132a851f6089e.svg": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 315,
       "exportedPath": "lib/media/6155340132a851f6089e.svg",
       "dependencies": []
     },
     "lib/fonts/mathjax_zero.woff": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 1368,
       "exportedPath": "lib/fonts/mathjax_zero.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-regular.woff": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 34160,
       "exportedPath": "lib/fonts/mathjax_main-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-bold.woff": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 34464,
       "exportedPath": "lib/fonts/mathjax_main-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_math-italic.woff": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 19360,
       "exportedPath": "lib/fonts/mathjax_math-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-italic.woff": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 20832,
       "exportedPath": "lib/fonts/mathjax_main-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_math-bolditalic.woff": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 19776,
       "exportedPath": "lib/fonts/mathjax_math-bolditalic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size1-regular.woff": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 5792,
       "exportedPath": "lib/fonts/mathjax_size1-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size2-regular.woff": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 5464,
       "exportedPath": "lib/fonts/mathjax_size2-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size3-regular.woff": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 3244,
       "exportedPath": "lib/fonts/mathjax_size3-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size4-regular.woff": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 5148,
       "exportedPath": "lib/fonts/mathjax_size4-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_ams-regular.woff": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 40808,
       "exportedPath": "lib/fonts/mathjax_ams-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_calligraphic-regular.woff": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 9600,
       "exportedPath": "lib/fonts/mathjax_calligraphic-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_calligraphic-bold.woff": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 9908,
       "exportedPath": "lib/fonts/mathjax_calligraphic-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_fraktur-regular.woff": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 21480,
       "exportedPath": "lib/fonts/mathjax_fraktur-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_fraktur-bold.woff": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 22340,
       "exportedPath": "lib/fonts/mathjax_fraktur-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-regular.woff": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 12660,
       "exportedPath": "lib/fonts/mathjax_sansserif-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-bold.woff": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 15944,
       "exportedPath": "lib/fonts/mathjax_sansserif-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-italic.woff": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 14628,
       "exportedPath": "lib/fonts/mathjax_sansserif-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_script-regular.woff": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 11852,
       "exportedPath": "lib/fonts/mathjax_script-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_typewriter-regular.woff": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 17604,
       "exportedPath": "lib/fonts/mathjax_typewriter-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_vector-regular.woff": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 1136,
       "exportedPath": "lib/fonts/mathjax_vector-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_vector-bold.woff": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 1116,
       "exportedPath": "lib/fonts/mathjax_vector-bold.woff",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1760006442391,
-      "sourceSize": 37920,
+      "modifiedTime": 1761561427779,
+      "sourceSize": 38826,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1760006442391,
-      "sourceSize": 4599,
+      "modifiedTime": 1761561427779,
+      "sourceSize": 4947,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 165755,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 262,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
@@ -531,67 +533,67 @@
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
     },
     "Full spectral fitting/Assets/Imgs/header.png": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 44741,
       "exportedPath": "full-spectral-fitting/assets/imgs/header.png",
       "dependencies": []
     },
     "Full spectral fitting/Assets/Imgs/wavelength_info.png": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 58003,
       "exportedPath": "full-spectral-fitting/assets/imgs/wavelength_info.png",
       "dependencies": []
     },
     "Full spectral fitting/Assets/pdfs/pypipe3D_dossier.pdf": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 262409,
       "exportedPath": "full-spectral-fitting/assets/pdfs/pypipe3d_dossier.pdf",
       "dependencies": []
     },
     "Full spectral fitting/pPXF/Changes.md": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 143,
       "exportedPath": "full-spectral-fitting/ppxf/changes.html",
       "dependencies": []
     },
     "Full spectral fitting/pPXF/Mass-weighted.md": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 316,
       "exportedPath": "full-spectral-fitting/ppxf/mass-weighted.html",
       "dependencies": []
     },
     "Full spectral fitting/pyFIT3D/Doubts.md": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 1291,
       "exportedPath": "full-spectral-fitting/pyfit3d/doubts.html",
       "dependencies": []
     },
     "Full spectral fitting/pyFIT3D/Notes.md": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 366,
       "exportedPath": "full-spectral-fitting/pyfit3d/notes.html",
       "dependencies": []
     },
     "Full spectral fitting/pyFIT3D/To implement.md": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 87,
       "exportedPath": "full-spectral-fitting/pyfit3d/to-implement.html",
       "dependencies": []
     },
     "Full spectral fitting/PyPipe3D/CAVITY IFU/Configuring ini file.md": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 384,
       "exportedPath": "full-spectral-fitting/pypipe3d/cavity-ifu/configuring-ini-file.html",
       "dependencies": []
     },
     "Full spectral fitting/PyPipe3D/CAVITY IFU/File headers.md": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 149,
       "exportedPath": "full-spectral-fitting/pypipe3d/cavity-ifu/file-headers.html",
       "dependencies": [
@@ -599,7 +601,7 @@
       ]
     },
     "Full spectral fitting/PyPipe3D/CAVITY IFU/Instrument parameters.md": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 381,
       "exportedPath": "full-spectral-fitting/pypipe3d/cavity-ifu/instrument-parameters.html",
       "dependencies": [
@@ -607,49 +609,49 @@
       ]
     },
     "Full spectral fitting/PyPipe3D/CAVITY IFU/README.md": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 250,
       "exportedPath": "full-spectral-fitting/pypipe3d/cavity-ifu/readme.html",
       "dependencies": []
     },
     "Full spectral fitting/PyPipe3D/CAVITY IFU/TODO.md": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 383,
       "exportedPath": "full-spectral-fitting/pypipe3d/cavity-ifu/todo.html",
       "dependencies": []
     },
     "Full spectral fitting/PyPipe3D/Steps/Central Spectrum Analysis.md": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 1170,
       "exportedPath": "full-spectral-fitting/pypipe3d/steps/central-spectrum-analysis.html",
       "dependencies": []
     },
     "Full spectral fitting/PyPipe3D/Steps/Continuum Segmentation.md": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 738,
       "exportedPath": "full-spectral-fitting/pypipe3d/steps/continuum-segmentation.html",
       "dependencies": []
     },
     "Full spectral fitting/PyPipe3D/Steps/Emission line fit for spaxel.md": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 619,
       "exportedPath": "full-spectral-fitting/pypipe3d/steps/emission-line-fit-for-spaxel.html",
       "dependencies": []
     },
     "Full spectral fitting/PyPipe3D/Steps/Final calculations.md": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 725,
       "exportedPath": "full-spectral-fitting/pypipe3d/steps/final-calculations.html",
       "dependencies": []
     },
     "Full spectral fitting/PyPipe3D/Steps/Tesella fit.md": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 484,
       "exportedPath": "full-spectral-fitting/pypipe3d/steps/tesella-fit.html",
       "dependencies": []
     },
     "Full spectral fitting/PyPipe3D/Doubts.md": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 724,
       "exportedPath": "full-spectral-fitting/pypipe3d/doubts.html",
       "dependencies": [
@@ -657,97 +659,97 @@
       ]
     },
     "Full spectral fitting/PyPipe3D/PyPipe3D map.md": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 180,
       "exportedPath": "full-spectral-fitting/pypipe3d/pypipe3d-map.html",
       "dependencies": []
     },
     "Full spectral fitting/PyPipe3D/The pipeline.md": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 263,
       "exportedPath": "full-spectral-fitting/pypipe3d/the-pipeline.html",
       "dependencies": []
     },
     "N_O comparison/Assets/Imgs/Contini2002+.png": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 32636,
       "exportedPath": "n_o-comparison/assets/imgs/contini2002+.png",
       "dependencies": []
     },
     "N_O comparison/Assets/Imgs/corr_gr_sSFR.png": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 43645,
       "exportedPath": "n_o-comparison/assets/imgs/corr_gr_ssfr.png",
       "dependencies": []
     },
     "N_O comparison/Assets/Imgs/corr_O3N2.png": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 15202,
       "exportedPath": "n_o-comparison/assets/imgs/corr_o3n2.png",
       "dependencies": []
     },
     "N_O comparison/Assets/Imgs/corr_R23.png": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 17210,
       "exportedPath": "n_o-comparison/assets/imgs/corr_r23.png",
       "dependencies": []
     },
     "N_O comparison/Assets/Imgs/Douglass2021+.png": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 107407,
       "exportedPath": "n_o-comparison/assets/imgs/douglass2021+.png",
       "dependencies": []
     },
     "N_O comparison/Assets/Imgs/fit_R23.png": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 53226,
       "exportedPath": "n_o-comparison/assets/imgs/fit_r23.png",
       "dependencies": []
     },
     "N_O comparison/Assets/Imgs/g-r LSS.png": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 50779,
       "exportedPath": "n_o-comparison/assets/imgs/g-r-lss.png",
       "dependencies": []
     },
     "N_O comparison/Assets/Imgs/LSS-median.png": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 100752,
       "exportedPath": "n_o-comparison/assets/imgs/lss-median.png",
       "dependencies": []
     },
     "N_O comparison/Assets/Imgs/OH_NO LSS.png": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 112034,
       "exportedPath": "n_o-comparison/assets/imgs/oh_no-lss.png",
       "dependencies": []
     },
     "N_O comparison/Assets/Imgs/OH_NO_model_cluster.png": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 55120,
       "exportedPath": "n_o-comparison/assets/imgs/oh_no_model_cluster.png",
       "dependencies": []
     },
     "N_O comparison/Assets/Imgs/Pilyugin2002+.png": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 55572,
       "exportedPath": "n_o-comparison/assets/imgs/pilyugin2002+.png",
       "dependencies": []
     },
     "N_O comparison/Assets/pdfs/Resumen_12mayo.pdf": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 298444,
       "exportedPath": "n_o-comparison/assets/pdfs/resumen_12mayo.pdf",
       "dependencies": []
     },
     "N_O comparison/Assets/pdfs/Resumen_30abril.pdf": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 1803839,
       "exportedPath": "n_o-comparison/assets/pdfs/resumen_30abril.pdf",
       "dependencies": []
     },
     "N_O comparison/1. Delayed nitrogen production.md": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 268,
       "exportedPath": "n_o-comparison/1.-delayed-nitrogen-production.html",
       "dependencies": [
@@ -755,13 +757,13 @@
       ]
     },
     "N_O comparison/2. About SFHs.md": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 3,
       "exportedPath": "n_o-comparison/2.-about-sfhs.html",
       "dependencies": []
     },
     "N_O comparison/3. Large scale structure effects.md": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 3880,
       "exportedPath": "n_o-comparison/3.-large-scale-structure-effects.html",
       "dependencies": [
@@ -776,105 +778,105 @@
       ]
     },
     "N_O comparison/Current concept map.canvas": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 9420,
       "exportedPath": "n_o-comparison/current-concept-map.html",
       "dependencies": [
         "n_o-comparison/assets/imgs/mass_controlled_agn.png",
         "n_o-comparison/assets/imgs/mass_controlled_agn_no.png",
-        "n_o-comparison/assets/imgs/mass_controlled_agn_sii.png",
+        "n_o-comparison/assets/imgs/parametrization_oh_no.png",
+        "n_o-comparison/assets/imgs/excess_no.png",
         "n_o-comparison/assets/imgs/douglass2021+.png",
         "n_o-comparison/assets/imgs/contini2002+.png",
-        "n_o-comparison/assets/imgs/pilyugin2002+.png",
         "n_o-comparison/assets/imgs/boardmann_diagram.png",
         "n_o-comparison/assets/imgs/boardmann_fnr.png",
+        "n_o-comparison/assets/imgs/pilyugin2002+.png",
+        "n_o-comparison/assets/imgs/mass_controlled_agn_sii.png",
         "n_o-comparison/assets/imgs/oh_controlled_agn.png",
         "n_o-comparison/assets/imgs/oh_controlled_agn_no.png",
-        "n_o-comparison/assets/imgs/oh_controlled_agn_sii.png",
-        "n_o-comparison/assets/imgs/parametrization_oh_no.png",
-        "n_o-comparison/assets/imgs/excess_no.png"
+        "n_o-comparison/assets/imgs/oh_controlled_agn_sii.png"
       ]
     },
     "How to navigate.md": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 254,
       "exportedPath": "how-to-navigate.html",
       "dependencies": []
     },
     "lib/media/pypipe3d_dossier.pdf": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 262409,
       "exportedPath": "lib/media/pypipe3d_dossier.pdf",
       "dependencies": []
     },
     "n_o-comparison/assets/pdfs/resumen_12mayo.pdf": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 298444,
       "exportedPath": "n_o-comparison/assets/pdfs/resumen_12mayo.pdf",
       "dependencies": []
     },
     "n_o-comparison/assets/imgs/g-r-lss.png": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 50779,
       "exportedPath": "n_o-comparison/assets/imgs/g-r-lss.png",
       "dependencies": []
     },
     "n_o-comparison/assets/imgs/oh_no-lss.png": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 112034,
       "exportedPath": "n_o-comparison/assets/imgs/oh_no-lss.png",
       "dependencies": []
     },
     "n_o-comparison/assets/imgs/lss-median.png": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 100752,
       "exportedPath": "n_o-comparison/assets/imgs/lss-median.png",
       "dependencies": []
     },
     "n_o-comparison/assets/imgs/corr_gr_ssfr.png": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 43645,
       "exportedPath": "n_o-comparison/assets/imgs/corr_gr_ssfr.png",
       "dependencies": []
     },
     "n_o-comparison/assets/imgs/fit_r23.png": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 53226,
       "exportedPath": "n_o-comparison/assets/imgs/fit_r23.png",
       "dependencies": []
     },
     "n_o-comparison/assets/imgs/corr_r23.png": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 17210,
       "exportedPath": "n_o-comparison/assets/imgs/corr_r23.png",
       "dependencies": []
     },
     "n_o-comparison/assets/imgs/oh_no_model_cluster.png": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 55120,
       "exportedPath": "n_o-comparison/assets/imgs/oh_no_model_cluster.png",
       "dependencies": []
     },
     "n_o-comparison/assets/imgs/corr_o3n2.png": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 15202,
       "exportedPath": "n_o-comparison/assets/imgs/corr_o3n2.png",
       "dependencies": []
     },
     "n_o-comparison/assets/imgs/douglass2021+.png": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 107407,
       "exportedPath": "n_o-comparison/assets/imgs/douglass2021+.png",
       "dependencies": []
     },
     "n_o-comparison/assets/imgs/contini2002+.png": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 32636,
       "exportedPath": "n_o-comparison/assets/imgs/contini2002+.png",
       "dependencies": []
     },
     "n_o-comparison/assets/imgs/pilyugin2002+.png": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 55572,
       "exportedPath": "n_o-comparison/assets/imgs/pilyugin2002+.png",
       "dependencies": []
@@ -886,145 +888,145 @@
       "dependencies": []
     },
     "Full spectral fitting/PyPipe3D/pypipe4u for sebas.md": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 296,
       "exportedPath": "full-spectral-fitting/pypipe3d/pypipe4u-for-sebas.html",
       "dependencies": []
     },
     "Full spectral fitting/pyPipe4U.md": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 139,
       "exportedPath": "full-spectral-fitting/pypipe4u.html",
       "dependencies": []
     },
     "lib/fonts/293fd13dbca5a3e450ef.woff2": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 105924,
       "exportedPath": "lib/fonts/293fd13dbca5a3e450ef.woff2",
       "dependencies": []
     },
     "lib/fonts/085cb93e613ba3d40d2b.woff2": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 112184,
       "exportedPath": "lib/fonts/085cb93e613ba3d40d2b.woff2",
       "dependencies": []
     },
     "biblio-notes/Galactic chemical evolution - stellar yields and the initial mass function.md": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 372,
       "exportedPath": "biblio-notes/galactic-chemical-evolution-stellar-yields-and-the-initial-mass-function.html",
       "dependencies": []
     },
     "biblio-notes/Influence of the Void Environment on Chemical Abundances in Dwarf Galaxies and Implications for Connecting Star Formation and Halo Mass.md": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 711,
       "exportedPath": "biblio-notes/influence-of-the-void-environment-on-chemical-abundances-in-dwarf-galaxies-and-implications-for-connecting-star-formation-and-halo-mass.html",
       "dependencies": []
     },
     "biblio-notes/Large-scale Environmental Dependence of the Abundance Ratio of Nitrogen to Oxygen in Blue, Star-forming Galaxies Fainter than L.md": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 3003,
       "exportedPath": "biblio-notes/large-scale-environmental-dependence-of-the-abundance-ratio-of-nitrogen-to-oxygen-in-blue,-star-forming-galaxies-fainter-than-l.html",
       "dependencies": []
     },
     "biblio-notes/Nitrogen Production in Starburst Galaxies Detected by GALEX.md": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 3977,
       "exportedPath": "biblio-notes/nitrogen-production-in-starburst-galaxies-detected-by-galex.html",
       "dependencies": []
     },
     "biblio-notes/Oxygen and nitrogen abundances in Virgo and field spirals.md": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 2632,
       "exportedPath": "biblio-notes/oxygen-and-nitrogen-abundances-in-virgo-and-field-spirals.html",
       "dependencies": []
     },
     "biblio-notes/SDSS-IV MaNGA Variations in the NO-OH Relation Bias Metallicity Gradient Measurements.md": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 2431,
       "exportedPath": "biblio-notes/sdss-iv-manga-variations-in-the-no-oh-relation-bias-metallicity-gradient-measurements.html",
       "dependencies": []
     },
     "biblio-notes/Some caveats about the evolution of the NO abundance and the star formation history.md": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 440,
       "exportedPath": "biblio-notes/some-caveats-about-the-evolution-of-the-no-abundance-and-the-star-formation-history.html",
       "dependencies": []
     },
     "biblio-notes/The Nitrogen-to-Oxygen evolution in galaxies - the role of the star formation rate.md": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 374,
       "exportedPath": "biblio-notes/the-nitrogen-to-oxygen-evolution-in-galaxies-the-role-of-the-star-formation-rate.html",
       "dependencies": []
     },
     "biblio-notes/THE STAR FORMATION HISTORY AND CHEMICAL EVOLUTION OF STAR-FORMING GALAXIES IN THE NEARBY UNIVERSE.md": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 624,
       "exportedPath": "biblio-notes/the-star-formation-history-and-chemical-evolution-of-star-forming-galaxies-in-the-nearby-universe.html",
       "dependencies": []
     },
     "Full spectral fitting/pPXF/Montecarlo bootstrapping.md": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 122,
       "exportedPath": "full-spectral-fitting/ppxf/montecarlo-bootstrapping.html",
       "dependencies": []
     },
     "N_O comparison/Assets/Imgs/All_gr.png": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 106538,
       "exportedPath": "n_o-comparison/assets/imgs/all_gr.png",
       "dependencies": []
     },
     "N_O comparison/Assets/Imgs/All_mass.png": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 108464,
       "exportedPath": "n_o-comparison/assets/imgs/all_mass.png",
       "dependencies": []
     },
     "N_O comparison/Assets/Imgs/All_ssfr_MPA.png": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 114017,
       "exportedPath": "n_o-comparison/assets/imgs/all_ssfr_mpa.png",
       "dependencies": []
     },
     "N_O comparison/Assets/Imgs/All_ssfr_pypipe.png": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 122988,
       "exportedPath": "n_o-comparison/assets/imgs/all_ssfr_pypipe.png",
       "dependencies": []
     },
     "N_O comparison/Assets/Imgs/Clusters_gr.png": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 98280,
       "exportedPath": "n_o-comparison/assets/imgs/clusters_gr.png",
       "dependencies": []
     },
     "N_O comparison/Assets/Imgs/excess_no.png": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 54895,
       "exportedPath": "n_o-comparison/assets/imgs/excess_no.png",
       "dependencies": []
     },
     "N_O comparison/Assets/Imgs/Filaments_gr.png": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 104541,
       "exportedPath": "n_o-comparison/assets/imgs/filaments_gr.png",
       "dependencies": []
     },
     "N_O comparison/Assets/Imgs/parametrization_OH_NO.png": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 23611,
       "exportedPath": "n_o-comparison/assets/imgs/parametrization_oh_no.png",
       "dependencies": []
     },
     "N_O comparison/Assets/Imgs/voids_gr.png": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 102014,
       "exportedPath": "n_o-comparison/assets/imgs/voids_gr.png",
       "dependencies": []
     },
     "N_O comparison/4. Large scale structure effects revisited. Parametric fit.md": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 3659,
       "exportedPath": "n_o-comparison/4.-large-scale-structure-effects-revisited.-parametric-fit.html",
       "dependencies": [
@@ -1040,171 +1042,183 @@
       ]
     },
     "N_O comparison/Important References.md": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 223,
       "exportedPath": "n_o-comparison/important-references.html",
       "dependencies": []
     },
     "templates/biblio-notes.md": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 968,
       "exportedPath": "templates/biblio-notes.html",
       "dependencies": []
     },
     "n_o-comparison/assets/imgs/parametrization_oh_no.png": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 23611,
       "exportedPath": "n_o-comparison/assets/imgs/parametrization_oh_no.png",
       "dependencies": []
     },
     "n_o-comparison/assets/imgs/excess_no.png": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 54895,
       "exportedPath": "n_o-comparison/assets/imgs/excess_no.png",
       "dependencies": []
     },
     "n_o-comparison/assets/imgs/all_mass.png": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 108464,
       "exportedPath": "n_o-comparison/assets/imgs/all_mass.png",
       "dependencies": []
     },
     "n_o-comparison/assets/imgs/all_gr.png": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 106538,
       "exportedPath": "n_o-comparison/assets/imgs/all_gr.png",
       "dependencies": []
     },
     "n_o-comparison/assets/imgs/all_ssfr_mpa.png": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 114017,
       "exportedPath": "n_o-comparison/assets/imgs/all_ssfr_mpa.png",
       "dependencies": []
     },
     "n_o-comparison/assets/imgs/all_ssfr_pypipe.png": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 122988,
       "exportedPath": "n_o-comparison/assets/imgs/all_ssfr_pypipe.png",
       "dependencies": []
     },
     "n_o-comparison/assets/imgs/voids_gr.png": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 102014,
       "exportedPath": "n_o-comparison/assets/imgs/voids_gr.png",
       "dependencies": []
     },
     "n_o-comparison/assets/imgs/clusters_gr.png": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 98280,
       "exportedPath": "n_o-comparison/assets/imgs/clusters_gr.png",
       "dependencies": []
     },
     "n_o-comparison/assets/imgs/filaments_gr.png": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 104541,
       "exportedPath": "n_o-comparison/assets/imgs/filaments_gr.png",
       "dependencies": []
     },
     "biblio-notes/The competing effects of recent and long-term star formation histories on oxygen, nitrogen, and stellar metallicities.md": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 1012,
       "exportedPath": "biblio-notes/the-competing-effects-of-recent-and-long-term-star-formation-histories-on-oxygen,-nitrogen,-and-stellar-metallicities.html",
       "dependencies": []
     },
     "N_O comparison/Assets/Imgs/boardmann_diagram.png": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 114712,
       "exportedPath": "n_o-comparison/assets/imgs/boardmann_diagram.png",
       "dependencies": []
     },
     "N_O comparison/Assets/Imgs/boardmann_FNR.png": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 85294,
       "exportedPath": "n_o-comparison/assets/imgs/boardmann_fnr.png",
       "dependencies": []
     },
     "N_O comparison/Assets/Imgs/mass_controlled_AGN.png": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 41050,
       "exportedPath": "n_o-comparison/assets/imgs/mass_controlled_agn.png",
       "dependencies": []
     },
     "N_O comparison/Assets/Imgs/mass_controlled_AGN_NO.png": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 29714,
       "exportedPath": "n_o-comparison/assets/imgs/mass_controlled_agn_no.png",
       "dependencies": []
     },
     "N_O comparison/Assets/Imgs/mass_controlled_AGN_sii.png": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 29086,
       "exportedPath": "n_o-comparison/assets/imgs/mass_controlled_agn_sii.png",
       "dependencies": []
     },
     "N_O comparison/Assets/Imgs/oh_controlled_AGN.png": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 41867,
       "exportedPath": "n_o-comparison/assets/imgs/oh_controlled_agn.png",
       "dependencies": []
     },
     "N_O comparison/Assets/Imgs/oh_controlled_AGN_NO.png": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 29471,
       "exportedPath": "n_o-comparison/assets/imgs/oh_controlled_agn_no.png",
       "dependencies": []
     },
     "N_O comparison/Assets/Imgs/oh_controlled_AGN_sii.png": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 29712,
       "exportedPath": "n_o-comparison/assets/imgs/oh_controlled_agn_sii.png",
       "dependencies": []
     },
     "n_o-comparison/assets/imgs/mass_controlled_agn.png": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 41050,
       "exportedPath": "n_o-comparison/assets/imgs/mass_controlled_agn.png",
       "dependencies": []
     },
     "n_o-comparison/assets/imgs/mass_controlled_agn_no.png": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 29714,
       "exportedPath": "n_o-comparison/assets/imgs/mass_controlled_agn_no.png",
       "dependencies": []
     },
     "n_o-comparison/assets/imgs/mass_controlled_agn_sii.png": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 29086,
       "exportedPath": "n_o-comparison/assets/imgs/mass_controlled_agn_sii.png",
       "dependencies": []
     },
     "n_o-comparison/assets/imgs/boardmann_diagram.png": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 114712,
       "exportedPath": "n_o-comparison/assets/imgs/boardmann_diagram.png",
       "dependencies": []
     },
     "n_o-comparison/assets/imgs/boardmann_fnr.png": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 85294,
       "exportedPath": "n_o-comparison/assets/imgs/boardmann_fnr.png",
       "dependencies": []
     },
     "n_o-comparison/assets/imgs/oh_controlled_agn.png": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 41867,
       "exportedPath": "n_o-comparison/assets/imgs/oh_controlled_agn.png",
       "dependencies": []
     },
     "n_o-comparison/assets/imgs/oh_controlled_agn_no.png": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 29471,
       "exportedPath": "n_o-comparison/assets/imgs/oh_controlled_agn_no.png",
       "dependencies": []
     },
     "n_o-comparison/assets/imgs/oh_controlled_agn_sii.png": {
-      "modifiedTime": 1760006442391,
+      "modifiedTime": 1761561427779,
       "sourceSize": 29712,
       "exportedPath": "n_o-comparison/assets/imgs/oh_controlled_agn_sii.png",
+      "dependencies": []
+    },
+    "biblio-notes/AGNs in the CALIFA survey - X-ray detection of nuclear sources.md": {
+      "modifiedTime": 1761561427779,
+      "sourceSize": 358,
+      "exportedPath": "biblio-notes/agns-in-the-califa-survey-x-ray-detection-of-nuclear-sources.html",
+      "dependencies": []
+    },
+    "biblio-notes/Crossing the Line - Active Galactic Nuclei in the Star-forming Region of the BPT Diagram.md": {
+      "modifiedTime": 1761561427779,
+      "sourceSize": 339,
+      "exportedPath": "biblio-notes/crossing-the-line-active-galactic-nuclei-in-the-star-forming-region-of-the-bpt-diagram.html",
       "dependencies": []
     }
   }
