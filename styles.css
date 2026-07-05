@@ -21,6 +21,28 @@
 }
 
 
+.inlink:link {
+  color: var(--nav-text);
+  background-color: var(--nav-background);
+  text-decoration: none;
+}
+
+.inlink:hover{
+  color: var(--nav-background);
+  background-color: var(--nav-text);
+  text-decoration: none;
+}
+
+.inlink:visited{
+  color: var(--nav-text);
+  background-color: var(--nav-background);
+  text-decoration: none;
+}
+
+.astroimage-hover { min-width: 100vh; /* Specify the width */ max-width: 100vh; /* Specify the width */ height: 40vh ; /* Specify the height */ background-image: url('https://k-poster.kuoni-congress.info/storage/poster/eas-2025/96940D8C-6398-45ED-896B-F1C6E1FFFB0E/image/original/ge_three-1.png'); /* Initial background image */ background-size: cover; /* Cover the entire area of the element */ transition: background-image 0.5s ease-in-out; /* Smooth transition */ margin: auto; overflow: scroll;}
+.astroimage-hover:hover { background-image: url('https://k-poster.kuoni-congress.info/storage/poster/eas-2025/96940D8C-6398-45ED-896B-F1C6E1FFFB0E/image/original/annotated_ge_three_drawing_.png'); /* Initial background image */} 
+
+
 .head-header{
   width: 100%;
   background-color:red;
@@ -44,12 +66,16 @@
 }
 .nav-link-what:hover:after{
   content:"";
-  animation: nav-bar-what var(--basic-time) linear;
+  animation: nav-bar-what var(--basic-time) linear infinite alternate;
   animation-fill-mode: forwards;
 }
 .nav-link-where:hover:after{
   content:"";
   animation: nav-bar-where var(--basic-time) linear infinite alternate;
+}
+.nav-link-back:hover:after{
+  content:"";
+  animation: nav-bar-back var(--basic-time) linear infinite alternate;
 }
 
 main{
@@ -101,6 +127,13 @@ main{
   gap: 3vw;
   min-height: 70vh;
 }
+.projects-container-line{
+  flex-wrap: wrap;
+  margin: 2vh 2vw;
+  display: flex;
+  gap: 3vw;
+  min-height: 70vh;
+}
 
 .project-tile{
   height: 33%;
@@ -109,6 +142,18 @@ main{
   border: 1vw solid var(--projects-text);
   background-color: var(--projects-text);
 }
+
+.project-line{
+  height: 33%;
+  width: 100%;
+  display:inline;
+  border: 1vw solid var(--projects-text);
+  background-color: var(--projects-text);
+}
+.project-tile p{
+  color: var(--main-text);
+}
+
 .project-tile:hover{
   cursor: pointer;
 }
@@ -265,5 +310,40 @@ footnote{
   }
   100%{
     content:" to find me\00a0";
+  }
+}
+@keyframes nav-bar-back{
+  0%{
+    content:" t_";
+  }
+  10%{
+    content:" to_";
+  }
+  20%{
+    content:" to _";
+  }
+  30%{
+    content:" to h_";
+  }
+  40%{
+    content:" to ho_";
+  }
+  50%{
+    content:" to hom_";
+  }
+  60%{
+    content:" to homr_";
+  }
+  70%{
+    content:" to hom_";
+  }
+  80%{
+    content:" to home_";
+  }
+  90%{
+    content:" to home\00a0";
+  }
+  100%{
+    content:" to home_";
   }
 }
