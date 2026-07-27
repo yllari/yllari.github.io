@@ -41,6 +41,8 @@
 
 .astroimage-hover { min-width: 100vh; /* Specify the width */ max-width: 100vh; /* Specify the width */ height: 40vh ; /* Specify the height */ background-image: url('https://k-poster.kuoni-congress.info/storage/poster/eas-2025/96940D8C-6398-45ED-896B-F1C6E1FFFB0E/image/original/ge_three-1.png'); /* Initial background image */ background-size: cover; /* Cover the entire area of the element */ transition: background-image 0.5s ease-in-out; /* Smooth transition */ margin: auto; overflow: scroll;}
 .astroimage-hover:hover { background-image: url('https://k-poster.kuoni-congress.info/storage/poster/eas-2025/96940D8C-6398-45ED-896B-F1C6E1FFFB0E/image/original/annotated_ge_three_drawing_.png'); /* Initial background image */} 
+.zoom-center-img {text-align: center;}
+.zoom-center-img:hover{  transform: scale(2);}
 
 
 .head-header{
