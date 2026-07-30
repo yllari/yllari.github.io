@@ -4,12 +4,11 @@
   --main-background: #273248;
   --main-text: #FFEBD2;
   /*--projects-background: #FC6743;*/
-  --projects-background: var(--main-background);
-  --projects-background2: var(--main-background);
-  --projects-text:  #AF4F41;
+  --projects-background:  #AF4F41;
+  --projects-text:  var(--main-text);
   --contact-background: #FFA364;
   --contact-background2: var(--nav-background);
-  --contact-text: #AF4F41;
+  --contact-text: #261DDB;
   --basic-time: 1.5s;
   --first-limit: 10%;
   --second-limit: 90%;
@@ -19,6 +18,16 @@
   overflow-x: hidden;
   margin: 0;
   padding: 0;
+  font-size:1.1vw;
+}
+
+body{
+  background-color:#66D0FF;
+}
+.cloud{ 
+   width:100%;
+   height:50vh;
+   overflow: visible;
 }
 
 .star {
@@ -470,7 +479,7 @@
 .astroimage-hover { min-width: 100vh; /* Specify the width */ max-width: 100vh; /* Specify the width */ height: 40vh ; /* Specify the height */ background-image: url('https://k-poster.kuoni-congress.info/storage/poster/eas-2025/96940D8C-6398-45ED-896B-F1C6E1FFFB0E/image/original/ge_three-1.png'); /* Initial background image */ background-size: cover; /* Cover the entire area of the element */ transition: background-image 0.5s ease-in-out; /* Smooth transition */ margin: auto; overflow: scroll;}
 .astroimage-hover:hover { background-image: url('https://k-poster.kuoni-congress.info/storage/poster/eas-2025/96940D8C-6398-45ED-896B-F1C6E1FFFB0E/image/original/annotated_ge_three_drawing_.png'); /* Initial background image */} 
 .zoom-center-img {text-align: center;}
-.zoom-center-img:hover{  transform: scale(2);}
+.zoom-center-img:hover{}
 
 
 .head-header{
@@ -511,11 +520,14 @@
 main{
   margin-top: 10vh;
   background-color: var(--main-background);
+  background: #273248;
+  background: linear-gradient(180deg, rgba(39, 50, 72, 1) 0%, rgba(191, 52, 117, 1) 60%, rgba(227, 85, 64, 1) 72%, rgba(255, 163, 100, 1) 92%, rgba(87, 199, 133, 1) 97%, rgba(21, 66, 37, 1) 100%);
   color: var(--main-text);
 }
 .welcome-section{
-  height: 90vh;
+  height: 200vh;
   padding: 1vh 1vw;
+  overflow-y: hidden;
 }
 .all-bracket-container{
   display:flex;
@@ -544,9 +556,10 @@ main{
 }
 
 .projects{
-  background: linear-gradient(var(--projects-background2) 0%, var(--projects-background2) var(--first-limit),var(--projects-background2) var(--first-limit), var(--projects-background2) var(--second-limit),var(--projects-background) var(--second-limit),var(--projects-background) 100%);
-  height: 100vh;
+  height: 200vh;
   padding: 1vh 1vw;
+  overflow-y:hidden;
+  margin-bottom: 5vh;
 }
 .projects p{
   color: var(--projects-text);
@@ -569,16 +582,16 @@ main{
   height: 33%;
   width: 33%;
   display:inline;
-  border: 1vw solid var(--projects-text);
-  background-color: var(--projects-text);
+  border: 1vw solid var(--projects-background);
+  background-color: var(--projects-background);
 }
 
 .project-line{
-  height: 33%;
   width: 100%;
   display:inline;
-  border: 1vw solid var(--projects-text);
-  background-color: var(--projects-text);
+  border: 1vw solid var(--projects-background);
+  background-color: var(--projects-background);
+  overflow: hidden;
 }
 .project-tile p{
   color: var(--main-text);
@@ -596,10 +609,9 @@ main{
 }
 
 .contact{
-  background: linear-gradient(var(--projects-background) 0%, var(--projects-background) var(--first-limit),var(--contact-background) var(--first-limit),
-  var(--contact-background) var(--second-limit), var(--contact-background2) var(--second-limit),var(--contact-background2) 100%);
-  height: 100vh;
+  height:50vh;
   padding: 1vh 1vw;
+  overflow-y: hidden;
 }
 .contact p, .profile-link{
   margin: 6vh 0;
